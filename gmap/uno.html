@@ -42,7 +42,7 @@ Desarrollado por <a href="http://www.manejandodatos.es" target="_blank">www.mane
 var ruta = [-12.065996799999999, -77.0269184 ];
  
 $(function(){
-function clear () { ruta = []; localStorage.ruta = JSON.stringify(ruta); };
+function clear () { ruta = [-12.065996799999999, -77.0269184]; localStorage.ruta = JSON.stringify(ruta); };
  
 $('#compactar').on('click', function () {
 ruta1 = ruta[0]; ruta2 = ruta[ruta.length - 1];
