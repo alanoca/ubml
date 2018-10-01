@@ -20,7 +20,7 @@
     $(document).ready(function() {
 		var instalada = 'La app Geolocalización ya esta instalada!';
 		
-      var gManifestName = location.href.replace('install.htm','') + 'manifest.webapp';
+      var gManifestName = location.href.replace('install.html','') + 'manifest.webapp';
       var request = navigator.mozApps.checkInstalled(gManifestName);
       
       request.onsuccess = function() {
